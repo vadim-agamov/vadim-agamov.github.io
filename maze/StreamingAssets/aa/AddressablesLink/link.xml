@@ -3,10 +3,7 @@
     <type fullname="Maze.Configs.LevelConfig" preserve="all" />
     <type fullname="Maze.Configs.LevelsConfig" preserve="all" />
     <type fullname="Services.JumpScreenService.JumpScreen" preserve="all" />
-    <type fullname="UI.LevelLoosedView" preserve="all" />
     <type fullname="UI.LevelWinView" preserve="all" />
-    <type fullname="UI.LobbyScreen" preserve="all" />
-    <type fullname="UI.PlayPanel" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -40,7 +37,6 @@
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
-    <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
   </assembly>
@@ -50,7 +46,6 @@
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
-    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
