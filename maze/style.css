@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%
+}
+
+canvas {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width:120px;
+    height:20px;
+    background: linear-gradient(#FFFFFF 0 0) left/0% 100% no-repeat #E4E4ED;
+    background-size: 0%;
+}
