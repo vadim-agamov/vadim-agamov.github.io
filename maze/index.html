@@ -8,9 +8,11 @@
   </head>
   <body bgcolor="#05A3A9">
     <div class="container" id="container">
-      <div class="loader" id="loader"></div>  
+      <div class="progress"><div class="progress-inner" id="loader"></div></div>
     </div>
+    
     <canvas id="unity-canvas"></canvas>
+    
     <script src="Build/DummyWebGl.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -31,12 +33,12 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "vadimagamov",
       productName: "Maze Explorer Junior",
-      productVersion: "0.60",
+      productVersion: "0.64",
       // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
       // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       },
       (progress) => {
-        loadingBar.style.backgroundSize = 100 * progress + "%";
+        loadingBar.style.inset = "0 " + 100*(1-progress) + "% 0 0";
         if(progress >= 1) {
           container.parentElement.removeChild(container);
         }

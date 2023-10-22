@@ -27,9 +27,22 @@ canvas {
     align-items: center;
 }
 
-.loader {
-    width:120px;
-    height:20px;
-    background: linear-gradient(#FFFFFF 0 0) left/0% 100% no-repeat #E4E4ED;
-    background-size: 0%;
+/*https://10015.io/tools/css-loader-generator*/
+
+.progress {
+    width: 172.8px;
+    height: 31.7px;
+    border-radius: 28.8px;
+    color: #E99F68;
+    border: 2.9px solid;
+    position: relative;
+}
+
+.progress-inner {
+    content: "";
+    position: absolute;
+    margin: 2.9px;
+    inset: 0 100% 0 0;
+    border-radius: inherit;
+    background: currentColor;
 }
