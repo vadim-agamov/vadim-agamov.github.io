@@ -9,6 +9,12 @@
     <type fullname="UI.OnOffUiButton" preserve="all" />
     <type fullname="Modules.FlyItemsService.FlyItemIcon" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Modules.LocalizationService.Localization" preserve="all" />
+    <type fullname="Modules.LocalizationService.LocalizationConfig" preserve="all" />
+    <type fullname="Modules.LocalizationService.LocalizationProviderConfig" preserve="all" />
+    <type fullname="Modules.LocalizationService.LocalizationKey" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="SoundService, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Modules.SoundService.SoundsConfig" preserve="all" />
     <type fullname="Modules.SoundService.SoundsConfig/Sound" preserve="nothing" serialized="true" />
